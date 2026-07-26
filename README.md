@@ -1,3 +1,34 @@
+# CloudDocs API
+
+CloudDocs is a cloud-native document management platform that provides secure user authentication, document management, and cloud storage integration.
+
+This repository contains the backend API service built with Python Flask.
+
+## Features
+
+- User registration and authentication
+- Email verification workflow
+- Document upload and management
+- Secure file storage with Amazon S3
+- Metadata persistence with database services
+
+## Architecture
+
+The backend integrates with AWS managed services:
+
+- Amazon S3 - document storage
+- Amazon DynamoDB - verification token storage
+- Amazon SNS - email notification service
+
+## Tech Stack
+
+- Python
+- Flask
+- SQL Database
+- AWS SDK (boto3)
+- AWS Services
+
+
 ## Webapp
 Project introduction
 
